@@ -1,89 +1,45 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html> <html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content = "width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" media="screen" href = "bootstrap/bootstrap.css">
+    <link rel="stylesheet" media="screen" href = "static/bootstrap/bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Asap&family=Overpass&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href = "bootstrap/style.css">
-    <script src="bootstrap/jquery-3.5.1.js"></script>
-    <script src="bootstrap/bootstrap.bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="static/style.css">
+    <script src="static/bootstrap/bootstrap.bundle.js"></script>
+    <script src="static/main.js"></script>
     <title>baron</title>
   </head>       
-  <body class="bg-dark"> 
-      <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Biographie</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Média</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+  <header class="bg-dark"> 
+    <nav class="navbar  navbar-expand-lg bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="main.html">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="audio.html">Le groupe</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link active" href="audio.html">Média</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="concert.html">Concerts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contact.html">Contact & Pro</a>
+            </li>
           </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active">Concerts</a>
-        </li>
-      </ul>
-      <ul>
-        <button class="btn btn-outline-success" type="submit">Search</button>
-        </ul>
-    </div>
-  </div>
-</nav>
-      <div class="text-light">
-         <div class="h5 text-center">
-             PROCHAINS CONCERTS 2022 :
-         </div>
-         <table class="table text-light">
-           <tbody>
-            <tr>
-              <td class="col-6 text-warning">Vendredi 16.09.2022 </td>
-              <td class="col-6">Genève Montagne, Ch.Erables 17, Pt-Lancy 20h00</td>
-            </tr>
-            <tr>
-              <td>Dimanche 04.09.2022 </td>
-              <td>La ville est à Vous, Devin-du-Village, St-Jean 15h00</td>
-            </tr>
-           <tr>
-               <td>Samedi 25.06.2022 </td>
-               <td>Fête de la Musique Genève, Promenade des Pins</td>
-           </tr>
-           <tr>
-               <td>Mardi    21.06.2022</td>
-               <td>Fête de la Musique Etrembières (F)</td>
-           </tr>
-           <tr>
-             <td>Mardi    21.06.2022</td>
-             <td>Fête de la Musique Annemasse (F)</td>
-           <tr>
-             <td>Samedi 18.06.2022</td>
-             <td>Génération2motards, Croix-de-Rozon, Genève</td>
-           </tr>
-         </tbody>
-       </table>
-         <div class="h5 text-center">
-        CONCERTS 2021 :
-         </div>
-        09.10.2021 - Rock'n Truck Festival, Perly-Certoux, Genève
-        11.09.2021 - Génération2motards, Croix-de-Rozon, Genève
-        10.07.2021 - Giraffe Party, Bellevue, Genève
-        19.06.2021 - Fête de la Musique, Jardin des Moraines, Carouge, Genève
+          <ul>
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </ul>
+        </div>
       </div>
+  </nav>
+</header>
+<body>
+    <h1 class="text-light">Accueil</h1>
 </body>

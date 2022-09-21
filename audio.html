@@ -1,0 +1,68 @@
+<!DOCTYPE html> <html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content = "width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen" href = "static/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Asap&family=Overpass&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5media/1.1.8/html5media.min.js"></script>
+    <script src="https://cdn.plyr.io/3.7.2/plyr.js"></script>
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.2/plyr.css" />
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="static/audio.css">
+    <script src="static/bootstrap/bootstrap.bundle.js"></script>
+    <script src="static/audio.js"></script>
+    <title>baron</title>
+  </head>       
+  <header> 
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="main.html">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+         <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="main.html">Biographie</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="audio.html">Média</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="concert.html">Concerts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contact.html">Contact & Pro</a>
+            </li>
+          </ul>
+          <ul>
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </ul>
+        </div>
+      </div>
+  </nav>
+</header>
+<body>
+    <div class="container">
+    <div class="column add-bottom">
+        <div id="mainwrap">
+            <div id="nowPlay">
+                <span id="npAction">Paused...</span><span id="npTitle"></span>
+            </div>
+            <div id="audiowrap">
+                <div id="audio0">
+                    <audio id="audio1" preload controls>Your browser does not support HTML5 Audio! 😢</audio>
+                </div>
+                <div id="tracks">
+                    <a id="btnPrev">&larr;</a><a id="btnNext">&rarr;</a>
+                </div>
+            </div>
+            <div id="plwrap">
+                <ul id="plList"></ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
