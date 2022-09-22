@@ -1,7 +1,13 @@
-.navbar-dark-color {
-background-color: #fff20d;
+.navbar.navbar-dark {
+background-color: #111111;
+color: #888;
+padding: 1em;
+margin: 1em;
+font-size: 1.2em;
+border-radius: 1em;
 }
 
 body {
-background-color:#000000;
-color:#fff;
+background-color:#666;
+color:#888;
+}
